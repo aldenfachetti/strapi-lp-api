@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_modules",
+  "info": {
+    "displayName": "modules",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true,
+      "maxLength": 30
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

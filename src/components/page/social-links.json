@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_social_links",
+  "info": {
+    "displayName": "socialLinks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "GitHub",
+        "LinkedIn",
+        "Twitter",
+        "Facebook",
+        "Instagram",
+        "TikTok",
+        "Dribbble",
+        "Behance"
+      ],
+      "required": true,
+      "default": "LinkedIn"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
