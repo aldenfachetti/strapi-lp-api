@@ -5,6 +5,10 @@
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
     "concepts": {
       "displayName": "concepts",
       "type": "component",

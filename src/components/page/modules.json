@@ -12,8 +12,7 @@
     },
     "subtitle": {
       "type": "text",
-      "required": true,
-      "maxLength": 30
+      "required": true
     },
     "description": {
       "type": "richtext",

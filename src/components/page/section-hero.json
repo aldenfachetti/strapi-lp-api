@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_page_headers",
+  "collectionName": "components_page_hero",
   "info": {
     "displayName": "sectioHero",
     "description": ""
@@ -24,10 +24,7 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images",
-        "videos"
-      ]
+      "allowedTypes": ["images", "videos"]
     }
   }
 }

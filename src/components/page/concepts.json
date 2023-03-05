@@ -7,7 +7,6 @@
   "attributes": {
     "title": {
       "type": "string",
-      "default": "concepts",
       "required": true
     }
   }

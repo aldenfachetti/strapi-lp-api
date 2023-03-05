@@ -21,13 +21,6 @@
       ],
       "pluginOptions": {}
     },
-    "sectionHero": {
-      "displayName": "header",
-      "type": "component",
-      "repeatable": false,
-      "component": "page.header",
-      "required": true
-    },
     "sectionAboutProject": {
       "displayName": "sectionAboutProject",
       "type": "component",
@@ -40,13 +33,6 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-tech"
-    },
-    "sectionConcepts": {
-      "displayName": "sectionConcepts",
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-concepts",
-      "required": true
     },
     "sectionModules": {
       "displayName": "sectionModules",
@@ -87,11 +73,17 @@
       "required": true,
       "component": "page.section-faq"
     },
-    "footer": {
-      "displayName": "footer",
+    "sectionHero": {
       "type": "component",
       "repeatable": false,
-      "component": "page.footer",
+      "component": "page.section-hero",
+      "required": true
+    },
+    "sectionConcepts": {
+      "displayName": "sectionConcepts",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts",
       "required": true
     }
   }

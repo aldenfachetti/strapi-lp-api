@@ -13,6 +13,10 @@
       "component": "page.reviews",
       "required": true,
       "min": 4
+    },
+    "title": {
+      "type": "string",
+      "required": true
     }
   }
 }
